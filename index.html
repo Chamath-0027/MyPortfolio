@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chamath Arthanayaka - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Particle Background -->
+  <div id="particles-container"></div>
+  
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">CA</span>
+        <div class="logo-pulse"></div>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        
+        <h1 class="hero-title">
+          <span class="gradient-text" id="typewriter">Chamath Arthanayake</span>
+          <span class="cursor">|</span>
+        </h1>
+        <div class="hero-roles">
+          <span class="role-text" id="role-changer">Full-Stack Developer</span>
+        </div>
+        <p class="hero-description">
+          Crafting digital experiences that blend innovation with elegance. 
+          Transforming ideas into reality through code and creativity.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-rocket"></i>
+            <span>View My Work</span>
+            <div class="btn-glow"></div>
+          </a>
+          <a href="docs/Chamath-Arthanayake-CV (1).pdf" target="_blank" class="btn btn-secondary">
+            <i class="fas fa-download"></i>
+            <span>Download CV</span>
+          </a>
+        </div>
+        
+      </div>
+      <div class="hero-visual">
+        <div class="terminal-container">
+          <div class="terminal-header">
+            <div class="terminal-buttons">
+              <span class="btn-close"></span>
+              <span class="btn-minimize"></span>
+              <span class="btn-maximize"></span>
+            </div>
+            <span class="terminal-title">developer.js</span>
+          </div>
+          <div class="terminal-body">
+            <div class="code-animation" id="code-animation">
+              <div class="code-line">
+                <span class="line-number">1</span>
+                <span class="keyword">const</span> 
+                <span class="variable">developer</span> 
+                <span class="operator">=</span> 
+                <span class="punctuation">{</span>
+              </div>
+              <div class="code-line indent">
+                <span class="line-number">2</span>
+                <span class="property">name</span><span class="punctuation">:</span> 
+                <span class="string">'Chamath Arthanayake'</span><span class="punctuation">,</span>
+              </div>
+              <div class="code-line indent">
+                <span class="line-number">3</span>
+                <span class="property">passion</span><span class="punctuation">:</span> 
+                <span class="string">'Coding & Innovation'</span><span class="punctuation">,</span>
+              </div>
+              <div class="code-line indent">
+                <span class="line-number">4</span>
+                <span class="property">skills</span><span class="punctuation">:</span> 
+                <span class="punctuation">[</span><span class="string">'React'</span><span class="punctuation">,</span> 
+                <span class="string">'Node.js'</span><span class="punctuation">,</span> 
+                <span class="string">'Java'</span><span class="punctuation">],</span>
+              </div>
+              <div class="code-line indent">
+                <span class="line-number">5</span>
+                <span class="property">goal</span><span class="punctuation">:</span> 
+                <span class="string">'Building Amazing Things'</span><span class="punctuation">,</span>
+              </div>
+              <div class="code-line indent">
+                <span class="line-number">6</span>
+                <span class="property">available</span><span class="punctuation">:</span> 
+                <span class="boolean">true</span>
+              </div>
+              <div class="code-line">
+                <span class="line-number">7</span>
+                <span class="punctuation">};</span>
+              </div>
+              <div class="code-cursor"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Passionate developer with a love for clean code</p>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <div class="text-block">
+            <h3>Who Am I?</h3>
+            <p class="about-intro">
+              I'm a passionate software developer who believes in the power of clean code and user-centered design. 
+              With expertise in modern web technologies, I create applications that not only function flawlessly 
+              but also provide exceptional user experiences.
+            </p>
+          </div>
+          <div class="text-block">
+            <h3>My Journey</h3>
+            <p class="about-details">
+              My journey in software development began with curiosity and has evolved into a deep passion for 
+              solving complex problems through elegant solutions. I'm constantly learning and adapting to new 
+              technologies, ensuring that every project incorporates the latest best practices.
+            </p>
+          </div>
+          <div class="text-block">
+            <h3>What I Do</h3>
+            <div class="services-list">
+              <div class="service-item">
+                <i class="fas fa-code"></i>
+                <span>Full-Stack Development</span>
+              </div>
+              <div class="service-item">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Mobile App Development</span>
+              </div>
+              <div class="service-item">
+                <i class="fas fa-paint-brush"></i>
+                <span>UI/UX Design</span>
+              </div>
+              <div class="service-item">
+                <i class="fas fa-database"></i>
+                <span>Database Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="profile-card">
+            <div class="profile-image profile-photo-circle" id="profilePhotoCircle">
+              <div class="profile-ring-animated"></div>
+              <img src="images/profile.jpg" alt="Chamath Arthanayake" class="profile-photo" id="profilePhoto" />
+            </div>
+            <div class="profile-info">
+              <h4>Chamath Arthanayake</h4>
+              <p>Full-Stack Developer</p>
+              <div class="profile-stats">
+                <div class="profile-stat">
+                  <strong>100+</strong>
+                  <span>Commits this month</span>
+                </div>
+                <div class="profile-stat">
+                  <strong>15+</strong>
+                  <span>Technologies mastered</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Technologies I work with</p>
+      </div>
+      <div class="skills-container">
+        <div class="skills-grid">
+          <!-- 1. Frontend & Web -->
+          <div class="skill-category">
+            <h3><i class="fas fa-globe"></i> Frontend & Web</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="90"><div class="skill-info"><i class="fab fa-html5"></i><span>HTML5</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="90"></div></div><span class="skill-percentage">90%</span></div></div>
+              <div class="skill-item" data-skill="85"><div class="skill-info"><i class="fab fa-css3-alt"></i><span>CSS3</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="85"></div></div><span class="skill-percentage">85%</span></div></div>
+              <div class="skill-item" data-skill="80"><div class="skill-info"><i class="fab fa-js"></i><span>JavaScript</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="80"></div></div><span class="skill-percentage">80%</span></div></div>
+              <div class="skill-item" data-skill="75"><div class="skill-info"><i class="fab fa-react"></i><span>React.js</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="75"></div></div><span class="skill-percentage">75%</span></div></div>
+            </div>
+          </div>
+          <!-- 2. Programming Languages -->
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Programming Languages</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="85"><div class="skill-info"><i class="fab fa-java"></i><span>Java</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="85"></div></div><span class="skill-percentage">85%</span></div></div>
+              <div class="skill-item" data-skill="70"><div class="skill-info"><i class="fas fa-code"></i><span>Kotlin</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="70"></div></div><span class="skill-percentage">70%</span></div></div>
+              <div class="skill-item" data-skill="65"><div class="skill-info"><i class="fas fa-chart-line"></i><span>R</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="65"></div></div><span class="skill-percentage">65%</span></div></div>
+              <div class="skill-item" data-skill="80"><div class="skill-info"><i class="fas fa-database"></i><span>SQL</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="80"></div></div><span class="skill-percentage">80%</span></div></div>
+            </div>
+          </div>
+          <!-- 3. Backend & Database -->
+          <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend & Database</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="75"><div class="skill-info"><i class="fab fa-node-js"></i><span>Node.js</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="75"></div></div><span class="skill-percentage">75%</span></div></div>
+              <div class="skill-item" data-skill="70"><div class="skill-info"><i class="fas fa-server"></i><span>Express.js</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="70"></div></div><span class="skill-percentage">70%</span></div></div>
+              <div class="skill-item" data-skill="85"><div class="skill-info"><i class="fas fa-database"></i><span>MySQL</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="85"></div></div><span class="skill-percentage">85%</span></div></div>
+              <div class="skill-item" data-skill="70"><div class="skill-info"><i class="fas fa-leaf"></i><span>MongoDB</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="70"></div></div><span class="skill-percentage">70%</span></div></div>
+            </div>
+          </div>
+          <!-- 4. Mobile & Tools -->
+          <div class="skill-category">
+            <h3><i class="fas fa-mobile-alt"></i> Mobile & Tools</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="75"><div class="skill-info"><i class="fab fa-android"></i><span>Android Studio</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="75"></div></div><span class="skill-percentage">75%</span></div></div>
+              <div class="skill-item" data-skill="90"><div class="skill-info"><i class="fab fa-github"></i><span>Git & GitHub</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="90"></div></div><span class="skill-percentage">90%</span></div></div>
+              <div class="skill-item" data-skill="80"><div class="skill-info"><i class="fab fa-figma"></i><span>Figma</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="80"></div></div><span class="skill-percentage">80%</span></div></div>
+              <div class="skill-item" data-skill="65"><div class="skill-info"><i class="fas fa-robot"></i><span>AI Tools</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="65"></div></div><span class="skill-percentage">65%</span></div></div>
+            </div>
+          </div>
+          <!-- 5. Development Tools -->
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Development Tools</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="90"><div class="skill-info"><i class="fas fa-code"></i><span>VS Code</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="90"></div></div><span class="skill-percentage">90%</span></div></div>
+              <div class="skill-item" data-skill="75"><div class="skill-info"><i class="fas fa-project-diagram"></i><span>Eclipse</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="75"></div></div><span class="skill-percentage">75%</span></div></div>
+              <div class="skill-item" data-skill="70"><div class="skill-info"><i class="fas fa-chart-bar"></i><span>RStudio</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="70"></div></div><span class="skill-percentage">70%</span></div></div>
+              <div class="skill-item" data-skill="90"><div class="skill-info"><i class="fab fa-github"></i><span>GitHub</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="90"></div></div><span class="skill-percentage">90%</span></div></div>
+            </div>
+          </div>
+          <!-- 6. Testing & DevOps -->
+          <div class="skill-category">
+            <h3><i class="fas fa-vial"></i> Testing & DevOps</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="70"><div class="skill-info"><i class="fas fa-bug"></i><span>Selenium</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="70"></div></div><span class="skill-percentage">70%</span></div></div>
+              <div class="skill-item" data-skill="80"><div class="skill-info"><i class="fas fa-paper-plane"></i><span>Postman</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="80"></div></div><span class="skill-percentage">80%</span></div></div>
+              <div class="skill-item" data-skill="65"><div class="skill-info"><i class="fas fa-shield-alt"></i><span>SonarQube</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="65"></div></div><span class="skill-percentage">65%</span></div></div>
+              <div class="skill-item" data-skill="75"><div class="skill-info"><i class="fab fa-microsoft"></i><span>Azure Boards</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="75"></div></div><span class="skill-percentage">75%</span></div></div>
+            </div>
+          </div>
+          <!-- 7. Design & Productivity -->
+          <div class="skill-category">
+            <h3><i class="fas fa-lightbulb"></i> Design & Productivity</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="80"><div class="skill-info"><i class="fab fa-figma"></i><span>Figma</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="80"></div></div><span class="skill-percentage">80%</span></div></div>
+              <div class="skill-item" data-skill="75"><div class="skill-info"><i class="fas fa-project-diagram"></i><span>Draw.io</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="75"></div></div><span class="skill-percentage">75%</span></div></div>
+              <div class="skill-item" data-skill="70"><div class="skill-info"><i class="fas fa-camera"></i><span>Lightroom</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="70"></div></div><span class="skill-percentage">70%</span></div></div>
+              <div class="skill-item" data-skill="85"><div class="skill-info"><i class="fab fa-trello"></i><span>Trello</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="85"></div></div><span class="skill-percentage">85%</span></div></div>
+            </div>
+          </div>
+          <!-- 8. AI & Automation -->
+          <div class="skill-category">
+            <h3><i class="fas fa-brain"></i> AI & Automation</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="80"><div class="skill-info"><i class="fas fa-robot"></i><span>Cursor AI</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="80"></div></div><span class="skill-percentage">80%</span></div></div>
+              <div class="skill-item" data-skill="85"><div class="skill-info"><i class="fas fa-brain"></i><span>GitHub Copilot</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="85"></div></div><span class="skill-percentage">85%</span></div></div>
+              <div class="skill-item" data-skill="90"><div class="skill-info"><i class="fab fa-microsoft"></i><span>MS Office</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="90"></div></div><span class="skill-percentage">90%</span></div></div>
+              <div class="skill-item" data-skill="90"><div class="skill-info"><i class="fab fa-git-alt"></i><span>Git</span></div><div class="skill-progress"><div class="progress-bar"><div class="progress-fill" data-width="90"></div></div><span class="skill-percentage">90%</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Education & Qualifications</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">My academic journey</p>
+      </div>
+      <div class="education-timeline">
+        <div class="timeline-line"></div>
+        
+        <div class="education-card current">
+          <div class="timeline-dot"></div>
+          <div class="card-content">
+            <div class="education-logo">
+              <div class="logo-container sliit">
+                <img src="images/sliit-logo.png" alt="SLIIT Logo" class="institution-logo">
+              </div>
+            </div>
+            <div class="education-date">2021 - Present</div>
+            <div class="education-degree">
+              <h3>BSc (Hons) in Information Technology</h3>
+              <p class="institution">Sri Lanka Institute of Information Technology</p>
+              <p class="location">Malabe, Sri Lanka</p>
+            </div>
+            <div class="education-progress">
+              <div class="progress-info">
+                <span class="progress-text">Completed 3rd Year 1st Semester</span>
+                <div class="circular-progress" data-percentage="75">
+                  <div class="progress-circle">
+                    <div class="progress-fill"></div>
+                    <span class="progress-number">75%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="education-highlights">
+              <div class="highlight">
+                <i class="fas fa-trophy"></i>
+                <span>Specialized in IT</span>
+              </div>
+              <div class="highlight">
+                <i class="fas fa-code"></i>
+                <span>Focus on Software Development</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="education-card">
+          <div class="timeline-dot"></div>
+          <div class="card-content">
+            <div class="education-logo">
+              <div class="logo-container sjvc">
+                <img src="images/JVC.jpg" alt="St. Joseph Vaz College Logo" class="institution-logo">
+              </div>
+            </div>
+            <div class="education-date">2021</div>
+            <div class="education-degree">
+              <h3>G.C.E Advanced Level</h3>
+              <p class="institution">St. Joseph Vaz College</p>
+              <p class="location">Wennappuwa</p>
+            </div>
+            <div class="education-results">
+              <div class="grade-grid">
+                <div class="grade-item">
+                  <span class="subject">Economics</span>
+                  <span class="grade grade-b">B</span>
+                </div>
+                <div class="grade-item">
+                  <span class="subject">Business</span>
+                  <span class="grade grade-b">B</span>
+                </div>
+                <div class="grade-item">
+                  <span class="subject">Accounting</span>
+                  <span class="grade grade-c">C</span>
+                </div>
+                <div class="grade-item">
+                  <span class="subject">English</span>
+                  <span class="grade grade-c">C</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="education-card">
+          <div class="timeline-dot"></div>
+          <div class="card-content">
+            <div class="education-logo">
+              <div class="logo-container bwea">
+                <img src="images/BWEA.png" alt="British Way English Academy Logo" class="institution-logo">
+              </div>
+            </div>
+            <div class="education-date">2019</div>
+            <div class="education-degree">
+              <h3>Diploma in English Language</h3>
+              <p class="institution">British Way English Academy</p>
+              <p class="location">Negombo</p>
+            </div>
+            <div class="education-achievement">
+              <div class="achievement-badge">
+                <i class="fas fa-certificate"></i>
+                <span>Successfully Completed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Some of my recent work</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card featured">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <i class="fas fa-project-diagram"></i>
+            </div>
+            <div class="project-status">
+              <span class="status-badge">Featured</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">CraftMind — Skill Sharing Platform</h3>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+            </div>
+            <p class="project-description">
+              A comprehensive platform for artisans to share and learn handicraft skills. 
+              Features include video tutorials, community forums, and skill marketplace with real-time chat.
+            </p>
+            <div class="project-features">
+              <div class="feature">
+                <i class="fas fa-video"></i>
+                <span>Video Tutorials</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-comments"></i>
+                <span>Community Forum</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-shopping-cart"></i>
+                <span>Marketplace</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Portfolio Website</h3>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+            <p class="project-description">
+              A modern, responsive portfolio website with dark theme and advanced animations. 
+              Features smooth scrolling, particle effects, and optimized performance.
+            </p>
+            <div class="project-features">
+              <div class="feature">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Responsive</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-paint-brush"></i>
+                <span>Animations</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+            <div class="project-placeholder">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">TaskMaster Mobile App</h3>
+              <div class="project-tags">
+                <span class="tag">React Native</span>
+                <span class="tag">Firebase</span>
+              </div>
+            </div>
+            <p class="project-description">
+              A productivity mobile app with task management, real-time sync, and offline capabilities. 
+              Features intuitive UI and advanced notification system.
+            </p>
+            <div class="project-features">
+              <div class="feature">
+                <i class="fas fa-sync"></i>
+                <span>Real-time Sync</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-bell"></i>
+                <span>Notifications</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Ready to start something amazing together?</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-intro">
+            <h3>Get In Touch</h3>
+            <p>I'm always excited to work on new challenges and collaborate with amazing people. 
+               Let's discuss how we can bring your ideas to life!</p>
+          </div>
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="method-content">
+                <h4>Email</h4>
+                <a href="mailto:chamatharthanayaka@gmail.com">chamatharthanayaka@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="method-content">
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/chamath-arthanayake-415742338" target="_blank">linkedin.com/in/chamath-arthanayake</a>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="method-content">
+                <h4>GitHub</h4>
+                <a href="https://github.com/Chamath-0027" target="_blank">github.com/Chamath-0027</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm" class="form">
+            <div class="form-header">
+              <h3>Send Message</h3>
+              <p>Fill out the form below and I'll get back to you soon!</p>
+            </div>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+              <div class="input-focus"></div>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required>
+              <div class="input-focus"></div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+              <div class="input-focus"></div>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <div class="input-focus"></div>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">
+              <i class="fas fa-paper-plane"></i>
+              <span>Send Message</span>
+              <div class="btn-glow"></div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-text">CA</span>
+            <div class="logo-pulse"></div>
+          </div>
+          <p>Building digital experiences that matter</p>
+          <div class="footer-quote">
+            <i class="fas fa-quote-left"></i>
+            <span>"Code is like humor. When you have to explain it, it's bad."</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>chamatharthanayaka@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Sri Lanka</span>
+          </div>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Me</h4>
+          <div class="social-links">
+            <a href="https://github.com/Chamath-0027" target="_blank" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/chamath-arthanayake-415742338" target="_blank" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/chamath.arthanayake.2025" target="_blank" class="social-link">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-separator"></div>
+        <p>&copy; <span id="year"></span> Chamath Arthanayaka. All rights reserved. Made with ❤️</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Profile Photo Popup Overlay -->
+  <div id="profilePhotoOverlay" class="profile-photo-overlay" style="display:none;">
+    <div class="profile-photo-popup">
+      <button class="close-popup" id="closeProfilePopup" aria-label="Close">&times;</button>
+      <img src="images/profile.jpg" alt="Chamath Arthanayake" class="profile-photo-large" />
+    </div>
+  </div>
+  <style>
+    .profile-photo-circle {
+      position: relative;
+      width: 140px;
+      height: 140px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+      z-index: 2;
+      transition: box-shadow 0.3s;
+    }
+    .profile-photo-circle:hover .profile-photo {
+      box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    }
+    .profile-ring-animated {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 140px;
+      height: 140px;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      border: 4px solid #4f8cff;
+      box-sizing: border-box;
+      z-index: 1;
+      animation: pulse-ring 1.8s infinite cubic-bezier(0.66,0,0,1);
+      pointer-events: none;
+    }
+    @keyframes pulse-ring {
+      0% { box-shadow: 0 0 0 0 rgba(79,140,255,0.4); }
+      70% { box-shadow: 0 0 0 18px rgba(79,140,255,0); }
+      100% { box-shadow: 0 0 0 0 rgba(79,140,255,0); }
+    }
+    .profile-photo-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(20,24,32,0.85);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s;
+      animation: fadeInOverlay 0.3s;
+    }
+    @keyframes fadeInOverlay {
+      from { background: rgba(20,24,32,0); }
+      to { background: rgba(20,24,32,0.85); }
+    }
+    .profile-photo-popup {
+      position: relative;
+      background: transparent;
+      border-radius: 16px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+      padding: 0;
+      animation: scaleInPhoto 0.35s cubic-bezier(0.4,1.4,0.6,1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    @keyframes scaleInPhoto {
+      from { transform: scale(0.7); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    .profile-photo-large {
+      width: 320px;
+      height: 320px;
+      max-width: 90vw;
+      max-height: 70vh;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #fff;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+      background: #fff;
+      margin: 0;
+      display: block;
+    }
+    .close-popup {
+      position: absolute;
+      top: 12px;
+      right: 18px;
+      background: rgba(0,0,0,0.5);
+      color: #fff;
+      border: none;
+      font-size: 2rem;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      z-index: 2;
+      transition: background 0.2s;
+    }
+    .close-popup:hover { background: #4f8cff; color: #fff; }
+    @media (max-width: 600px) {
+      .profile-photo-large { width: 90vw; height: 90vw; max-width: 90vw; max-height: 90vw; }
+      .profile-photo-popup { border-radius: 50vw; }
+    }
+  </style>
+  <script>
+    // Profile photo popup logic
+    document.addEventListener('DOMContentLoaded', function() {
+      var photoCircle = document.getElementById('profilePhotoCircle');
+      var overlay = document.getElementById('profilePhotoOverlay');
+      var closeBtn = document.getElementById('closeProfilePopup');
+      function openPopup() {
+        overlay.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+      }
+      function closePopup() {
+        overlay.style.display = 'none';
+        document.body.style.overflow = '';
+      }
+      if (photoCircle) {
+        photoCircle.addEventListener('click', openPopup);
+      }
+      if (closeBtn) {
+        closeBtn.addEventListener('click', closePopup);
+      }
+      if (overlay) {
+        overlay.addEventListener('click', function(e) {
+          if (e.target === overlay) closePopup();
+        });
+      }
+      document.addEventListener('keydown', function(e) {
+        if (overlay.style.display === 'flex' && (e.key === 'Escape' || e.key === 'Esc')) closePopup();
+      });
+    });
+  </script>
+</body>
+</html>
