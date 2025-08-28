@@ -13,6 +13,7 @@ a.contact-method {
   box-shadow: 0 2px 16px rgba(0,0,0,0.08);
   transition: box-shadow 0.2s, border-color 0.2s, background 0.2s, transform 0.2s;
   cursor: pointer;
+}
 a.contact-method:hover {
   border-color: #00d4ff;
   background: rgba(0, 212, 255, 0.08);
@@ -85,15 +86,7 @@ a.contact-method:hover .method-icon {
     width: 100%;
   }
 }
-}
 
-@media (max-width: 900px) {
-  .mobile-app-projects {
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-  }
-}
 /* Reset and Base Styles */
 * {
   margin: 0;
@@ -180,6 +173,12 @@ body {
   color: #e4e4e7;
   line-height: 1.6;
   overflow-x: hidden;
+}
+
+/* Make all images scale within their containers on small screens */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Custom Scrollbar */
@@ -1927,7 +1926,7 @@ section {
 /* Projects Section */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 50px;
 }
 
