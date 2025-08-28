@@ -1,3 +1,38 @@
+/* Mobile App Projects Flex Layout */
+.mobile-app-projects {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mobile-app-projects .project-card {
+  flex: 1 1 45%;
+  max-width: 45%;
+  min-width: 320px;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .mobile-app-projects {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .mobile-app-projects .project-card {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+}
+
+@media (max-width: 900px) {
+  .mobile-app-projects {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+}
 /* Reset and Base Styles */
 * {
   margin: 0;
