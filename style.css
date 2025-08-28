@@ -1,3 +1,64 @@
+/* Enhanced Contact Method Styles */
+a.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: rgba(24, 24, 27, 0.7);
+  border: 1.5px solid rgba(0, 212, 255, 0.12);
+  border-radius: 16px;
+  padding: 22px 28px;
+  margin-bottom: 18px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  transition: box-shadow 0.2s, border-color 0.2s, background 0.2s, transform 0.2s;
+  cursor: pointer;
+a.contact-method:hover {
+  border-color: #00d4ff;
+  background: rgba(0, 212, 255, 0.08);
+  box-shadow: 0 6px 32px rgba(0,212,255,0.10), 0 2px 16px rgba(0,0,0,0.12);
+  transform: translateY(-2px) scale(1.025);
+}
+.contact-method .method-icon {
+  font-size: 2.1rem;
+  color: #00d4ff;
+  background: rgba(0, 212, 255, 0.10);
+  border-radius: 12px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s;
+}
+a.contact-method:hover .method-icon {
+  background: #00d4ff;
+  color: #fff;
+}
+.contact-method .method-content h4 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4f8cff;
+}
+.contact-method .method-content span {
+  font-size: 0.98rem;
+  color: #e4e4e7;
+  word-break: break-all;
+}
+@media (max-width: 600px) {
+  a.contact-method {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 14px;
+  }
+  .contact-method .method-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+}
 /* Mobile App Projects Flex Layout */
 .mobile-app-projects {
   display: flex;
